@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text</title>
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <script src="../js/all.js"></script>
+    <script src="../js/all.min.js"></script>
+
+    <style>
+        body{
+            background-color: rgb(8, 8, 5);
+        }
+        .total {
+            display: flex;
+            flex-direction: column;
+            width: 400px;
+
+
+        }
+
+        .contacts {
+            background-color: rgba(250, 243, 243, 0.493);
+            padding: 16px;
+            width: 500px;
+            display: flex;
+            justify-content: center;
+            border-radius: 12px;
+        }
+        .contacts:hover{
+            background-color: teal;
+            box-shadow: 0 0 26px rgb(233, 228, 228),
+            0 0 25px greenyellow;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"] {
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 10px;
+            text-align: center;
+            outline: none;
+            border: .5px solid rgb(117, 114, 114);
+        }
+        #contactus{
+            display: flex;
+            justify-content: center;
+            height: 80vh;
+            align-items: center;
+            align-content: center;
+        }
+        textarea{
+            border-radius: 5px;
+            text-align: center;
+            outline: none;
+
+        }
+        .contacts-1{
+            text-align: center;
+            color: white;
+        }
+        input[type="submit"]{
+            width: 100px;
+            padding: 10px;
+            border-radius: 10px;
+            border: none;
+            margin-top: 10px;
+            margin-left: 40%;
+            background-color: dodgerblue;
+            color: white;
+            font-size: 20px;
+        }
+        .btn1:hover{
+            background-color: white;
+            color: black;
+        }
+        a{
+            background-color: dodgerblue;
+            padding: 10px;
+            text-decoration: none;
+            color: white;
+            font-size: 25px;
+            border-radius: 10px;
+           
+        }
+        .ancher{
+            margin: 2rem;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<div class="ancher"><a href="../bookstore/home.html">Home</a></div>
+    <div id="contactus">
+        <div class="contacts">
+            <div class="contact__us">
+                <h1 class="contacts-1">Contacts Us</h1>
+                <form action="">
+                    <div class="total">
+                        <input type="text" placeholder="Full Name">
+                        <input type="email" placeholder="Email">
+                        <input type="tel" placeholder="Phone">
+                        <textarea name="" id="" placeholder="write commets" ></textarea>
+                        <input type="submit" class="btn1">
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+
+   
+  
+
+</body>
+
+</html>
